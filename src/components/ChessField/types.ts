@@ -1,8 +1,13 @@
-import {ICoords} from '../../lib/types/chess';
+import {ICoords, PieceType, PieceColor, TileColor} from '../../lib/types/chess';
 
 export interface IChessFieldTileProps {
-  coords: ICoords;
-  imageUrl: string;
+  tileColor: TileColor;
   checked?: boolean;
   onClick: (coords: ICoords) => void;
+}
+
+export interface IChessPieceProps {
+  pieceColor: PieceColor;
+  pieceType: PieceType;
+  coords: ICoords;
 }
