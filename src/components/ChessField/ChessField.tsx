@@ -50,6 +50,17 @@ export const ChessField = () => {
   };
 
   const handlePieceClick = (id: string, coords: ICoords) => () => {
+    if (selectedPieceId === id) {
+      setFieldTiles(tiles => {
+        const selectedPieceCoords = getPieceCoordsById(pieces, selectedPieceId);
+        if (selectedPieceCoords) {
+          return setFieldTileChecked(tiles, selectedPieceCoords, false);
+        }
+        return tiles;
+      });
+      setSelectedPieceId(null);
+      return;
+    }
     if (selectedPieceId) {
       setPieces(pieces => {
         const temp = deletePiece(pieces, id);

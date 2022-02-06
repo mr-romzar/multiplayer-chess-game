@@ -16,6 +16,12 @@ export const ChessFieldContainer = styled.div`
   flex-wrap: wrap;
 `;
 
+// value 12.5% is using for setting the elements' size to make elements responsive to the container width.
+// 12.5% = 100% / 8 (board has 8 x 8 tiles, so each tile has 12.5% of the board width and height)
+//
+// height: 0 and padding-bottom: 12.5%  are used to make elements' height equal to their width
+// (relative units cannot be used to set the height of an element if the height of the parent element is not explicitly set)
+
 export const ChessFieldTile = styled.div<IChessFieldTileProps>`
   width: 12.5%;
   height: 0;
