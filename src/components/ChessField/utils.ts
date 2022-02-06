@@ -1,4 +1,5 @@
 import {
+  IFieldTile,
   IPiece,
   PieceColor,
   PieceType,
@@ -71,15 +72,19 @@ export const initializePieces = () => {
 
 export const initializeField = () => {
   // Init empty two-dimensional array 8x8
-  const field = new Array<TileColor[]>(8)
-  .fill(new Array<TileColor>(8).fill(TileColor.Black));
+  const field = new Array<IFieldTile[]>(8)
+  .fill(new Array<IFieldTile>(8).fill({
+    color: TileColor.Black,
+    checked: false
+  }));
 
   return field.map((row, j) => {
-    return row.map((tile, i) => {
-        return (i + j) % 2
+    return row.map((tile, i) => ({
+        color: (i + j) % 2
           ? TileColor.Black
-          : TileColor.White;
-      }
+          : TileColor.White,
+        checked: false
+      })
     );
   });
 };

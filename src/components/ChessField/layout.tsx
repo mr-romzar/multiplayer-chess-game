@@ -1,6 +1,10 @@
-import styled, {css} from 'styled-components';
-import {IChessFieldTileProps, IChessPieceProps} from './types';
-import {PieceType, PieceColor, TileColor} from '../../lib/types/chess';
+import styled, { css } from 'styled-components';
+import { IChessFieldTileProps, IChessPieceProps } from './types';
+import {
+  PieceType,
+  PieceColor,
+  TileColor,
+} from '../../lib/types/chess';
 import {
   CHESS_FIELD_DARK_TILES_PUBLIC_URL,
   CHESS_FIELD_LIGHT_TILES_PUBLIC_URL, CHESS_PIECES_PUBLIC_URL
@@ -18,7 +22,7 @@ export const ChessFieldTile = styled.div<IChessFieldTileProps>`
   padding-bottom: 12.5%;
   background-image: ${props => `url(${props.tileColor === TileColor.Black ? CHESS_FIELD_DARK_TILES_PUBLIC_URL : CHESS_FIELD_LIGHT_TILES_PUBLIC_URL})`};
   box-sizing: border-box;
-  ${props => props.checked ? css`border: 1px solid greenyellow` : null}
+  ${props => props.checked ? css`border: 1px solid greenyellow` : css`border: 1px solid transparent`}
 `;
 
 export const ChessPiece = styled.div<IChessPieceProps>`
@@ -32,6 +36,6 @@ export const ChessPiece = styled.div<IChessPieceProps>`
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 80%;
-
+  transition: top 0.3s, left 0.3s;
   box-sizing: border-box;
-`
+`;
