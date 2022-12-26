@@ -4,7 +4,7 @@ import {
   PieceType,
   PieceColor,
   TileColor,
-} from '../../lib/types/chess';
+} from '../../lib/ChessGame/types';
 import {
   CHESS_FIELD_DARK_TILES_PUBLIC_URL,
   CHESS_FIELD_LIGHT_TILES_PUBLIC_URL, CHESS_PIECES_PUBLIC_URL

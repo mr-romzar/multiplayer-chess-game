@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChessFieldContainer, ChessFieldTile, ChessPiece } from './layout';
-import { ICoords, IFieldTile, IPiece } from '../../lib/types/chess';
+import { ICoords, IFieldTile, IPiece } from '../../lib/ChessGame/types';
 import { initializeField, initializePieces } from './utils';
 
 export const ChessField = () => {

@@ -4,7 +4,7 @@ import {
   PieceColor,
   PieceType,
   TileColor
-} from '../../lib/types/chess';
+} from '../../lib/ChessGame/types';
 import { v4 as uuidv4 } from 'uuid';
 
 export const initializePieces = () => {

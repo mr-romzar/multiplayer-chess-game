@@ -1,4 +1,4 @@
-import {ICoords, PieceType, PieceColor, TileColor} from '../../lib/types/chess';
+import {ICoords, PieceType, PieceColor, TileColor} from '../../lib/ChessGame/types';
 
 export interface IChessFieldTileProps {
   tileColor: TileColor;
