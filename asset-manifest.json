@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/multiplayer-chess-game/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/multiplayer-chess-game/static/js/main.390bc82d.chunk.js",
-    "main.js.map": "/multiplayer-chess-game/static/js/main.390bc82d.chunk.js.map",
-    "runtime-main.js": "/multiplayer-chess-game/static/js/runtime-main.03825a25.js",
-    "runtime-main.js.map": "/multiplayer-chess-game/static/js/runtime-main.03825a25.js.map",
-    "static/js/2.8e22cd33.chunk.js": "/multiplayer-chess-game/static/js/2.8e22cd33.chunk.js",
-    "static/js/2.8e22cd33.chunk.js.map": "/multiplayer-chess-game/static/js/2.8e22cd33.chunk.js.map",
-    "static/js/3.591b5738.chunk.js": "/multiplayer-chess-game/static/js/3.591b5738.chunk.js",
-    "static/js/3.591b5738.chunk.js.map": "/multiplayer-chess-game/static/js/3.591b5738.chunk.js.map",
+    "main.css": "/multiplayer-chess-game/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/multiplayer-chess-game/static/js/main.bfd5b90a.chunk.js",
+    "main.js.map": "/multiplayer-chess-game/static/js/main.bfd5b90a.chunk.js.map",
+    "runtime-main.js": "/multiplayer-chess-game/static/js/runtime-main.e11368cd.js",
+    "runtime-main.js.map": "/multiplayer-chess-game/static/js/runtime-main.e11368cd.js.map",
+    "static/js/2.f55d471a.chunk.js": "/multiplayer-chess-game/static/js/2.f55d471a.chunk.js",
+    "static/js/2.f55d471a.chunk.js.map": "/multiplayer-chess-game/static/js/2.f55d471a.chunk.js.map",
+    "static/js/3.b33d03ee.chunk.js": "/multiplayer-chess-game/static/js/3.b33d03ee.chunk.js",
+    "static/js/3.b33d03ee.chunk.js.map": "/multiplayer-chess-game/static/js/3.b33d03ee.chunk.js.map",
     "index.html": "/multiplayer-chess-game/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/multiplayer-chess-game/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.8e22cd33.chunk.js.LICENSE.txt": "/multiplayer-chess-game/static/js/2.8e22cd33.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/multiplayer-chess-game/static/media/logo.6ce24c58.svg"
+    "static/css/main.6dea0f05.chunk.css.map": "/multiplayer-chess-game/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f55d471a.chunk.js.LICENSE.txt": "/multiplayer-chess-game/static/js/2.f55d471a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.03825a25.js",
-    "static/js/2.8e22cd33.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.390bc82d.chunk.js"
+    "static/js/runtime-main.e11368cd.js",
+    "static/js/2.f55d471a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.bfd5b90a.chunk.js"
   ]
 }
